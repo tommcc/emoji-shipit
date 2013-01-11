@@ -869,11 +869,11 @@
     'zzz'
   ];
 
-  var emoji = EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
   var form = $('form.js-discussion-update');
   var textArea = form.find('textarea').last();
   var submit = form.find('button.primary');
 
-  textArea.val(':'+emoji+':');
+  var emoji = EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
+  textArea.val(':' + emoji + ':');
   submit.trigger('click');
 })();
