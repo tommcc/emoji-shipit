@@ -231,6 +231,7 @@
     'diamond_shape_with_a_dot_inside',
     'diamonds',
     'disappointed',
+    'disappointed_relieved',
     'dizzy',
     'dizzy_face',
     'do_not_litter',
