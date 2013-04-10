@@ -22,3 +22,14 @@ copy(emojiString);
 ```
 
 Then, copy into `emoji_shipit.js` file, sort, remove trailing comma.
+
+Not working in Firefox?
+-----------------------
+
+GitHub recently enabled CSP on their pages, which limits the sources from which JavaScript can be executed on a page. In Firefox, the bookmarklet is prevented from running by this security policy.
+
+A workaround is to disable this feature (but do this at your own risk!):
+
+1. Go to `about:config`
+2. Type `security.csp.enable`
+3. Double-click the row or set to `false`
