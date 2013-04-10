@@ -870,7 +870,7 @@
     'zzz'
   ];
 
-  var form = $('form.js-discussion-update');
+  var form = $('form.js-new-comment-form');
   var textArea = form.find('textarea').last();
   var submit = form.find('button.primary');
 
